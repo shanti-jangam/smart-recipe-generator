@@ -1,0 +1,94 @@
+.recipe-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.recipe-image:hover {
+    transform: scale(1.05);
+}
+
+.image-loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+.ingredients-list {
+  margin-top: 2rem;
+}
+
+.ingredients-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ingredients-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Add these styles for the saved recipe cards */
+.saved-recipe-card {
+    height: 400px !important;  /* Fixed height for all cards */
+    display: flex !important;
+    flex-direction: column !important;
+    background: rgba(30, 30, 30, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    margin-bottom: 20px !important;
+}
+
+.saved-recipe-image {
+    height: 200px !important;  /* Fixed height for images */
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.saved-recipe-content {
+    flex: 1 !important;
+    overflow: hidden !important;
+    padding: 16px !important;
+}
+
+.saved-recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 24px;
+}
+
+.saved-recipe-title {
+    font-size: 1.25rem !important;
+    margin-bottom: 8px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.saved-recipe-tags {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.saved-recipe-info {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin-bottom: 8px !important;
+}
