@@ -2,8 +2,6 @@
 
 #  Smart Recipe Generator
 
-### [Try Smart Recipe Generator](your-deployed-url-here)
-
 An AI-powered kitchen companion that transforms random ingredients into delicious recipes! Combining my love for cooking and coding into something magical.
 
 <img width="387" alt="Screenshot 2025-04-15 at 2 02 19 PM" src="https://github.com/user-attachments/assets/0aa6a50f-2545-4f25-b22c-d8216810021f" />
