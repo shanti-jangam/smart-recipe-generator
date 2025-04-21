@@ -40,11 +40,11 @@ The magic happens through Cohere's language model (LLM), and let me tell you, it
 
 ## What I Built It With 
 
-### The Frontend Stuff:
+### Frontend:
 - React with Material-UI 
 - React Context for state management 
 
-### The Backend Magic:
+### Backend:
 - Node.js & Express 
 - MongoDB 
 - Cohere's API 
@@ -58,7 +58,7 @@ I'm particularly proud of how the app:
 - Lets you track cooking progress
 - Makes sharing recipes super easy
 
-## Want to Try It Out? 🚀
+## Want to Try It Out? 
 
 If you're interested in running this locally, here's what you'll need:
 
@@ -86,7 +86,7 @@ If you're interested in running this locally, here's what you'll need:
    COHERE_API_KEY=your_cohere_api_key
    ```
 
-## What's Next? 🎯
+## What's Next? 
 
 I've got some exciting plans for the future:
 1. Adding AI-generated food images (DALL-E or Midjourney)
